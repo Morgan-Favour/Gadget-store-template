@@ -2,5 +2,10 @@
 @import "talwindcss";
 
 body{
-    /* background-color: #F8F8FA; */
+   font-family: "Poppins", sans-serif;
+   
+}
+html {
+    scroll-behavior: smooth;
+
 }
