@@ -14,12 +14,14 @@
         @theme {
             --color-gs-white: #ffffff;
             --color-bs-gray: #898989;
+            --color-bs-blue: #eef5fd;
             --color-gs-primary: #0088ff;
             --color-gs-secondary: #031833;
             --font-poppins: 'Poppins', sans-serif;
          }
     </style>
 </head>
+
 <body>
     <nav>
         <div
@@ -28,40 +30,95 @@
                 <img src="./assests/logo.png" alt="" class="w-25 md:w-50 h-auto">
             </div>
             <div>
-            
+
 
                 <ul id="menu" class="flex space-x-10">
-                    
+
                     <a href="">
-                        <li class="font-semibold font-poppins text-lg text-bs-primary md:text-bs-black transition-colors duration-300">Products</li>
+                        <li
+                            class="font-semibold font-poppins text-lg text-bs-primary md:text-bs-black transition-colors duration-300">
+                            Products</li>
                     </a>
                     <a href="">
-                        <li class="font-semibold font-poppins text-lg text-gs-secondary md:text-bs-black transition-colors duration-300">Shop</li>
+                        <li
+                            class="font-semibold font-poppins text-lg text-gs-secondary md:text-bs-black transition-colors duration-300">
+                            Shop</li>
                     </a>
-                    
+
                 </ul>
             </div>
         </div>
     </nav>
 
     <main class="">
-    <div class="bg-gs-secondary flex flex-col md:flex-row justify-between items-center mx-4 md:mx-20 rounded-4xl px-4 md:px-15 py-6">
-        <div class="w-full md:w-2/4 text-center md:text-left">
-            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-semibold font-poppins text-gs-white mt-4 md:mt-10 leading-tight">
-                Get <span class="text-gs-primary">Best Device</span> with lowest <br class="hidden md:block">price
-            </h1>
+        <div
+            class="bg-gs-secondary flex flex-col md:flex-row justify-between items-center mx-4 md:mx-20 rounded-4xl px-4 md:px-15 py-6">
+            <div class="w-full md:w-2/4 text-center md:text-left space-y-6">
+                <h1
+                    class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-semibold font-poppins text-gs-white mt-4 md:mt-10 leading-tight">
+                    Get <span class="text-gs-primary">Best Device</span> with Affordable <br
+                        class="hidden md:block">price
+                </h1>
+
+            </div>
+            <div class="w-full md:w-auto mt-6 md:mt-0 relative overflow-hidden">
+                <div class="w-full md:w-auto mt-6 md:mt-0 relative overflow-hidden">
+                    <div class="carousel w-full md:max-w-[400px] flex transition-transform duration-500 ease-in-out"
+                        id="carousel" style="transform: translateX(0%);">
+                        <img src="/assests/slide1-1.png" alt="Slide 1" class="w-full h-auto min-w-full">
+                        <img src="/assests/slide2-1.png" alt="Slide 2" class="w-full h-auto min-w-full">
+                        <img src="/assests/slide3-1.png" alt="Slide 3" class="w-full h-auto min-w-full">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="w-full md:w-auto mt-6 md:mt-0 relative overflow-hidden">
-    <div class="w-full md:w-auto mt-6 md:mt-0 relative overflow-hidden">
-    <div class="carousel w-full md:max-w-[400px] flex transition-transform duration-500 ease-in-out" id="carousel" style="transform: translateX(0%);">
-        <img src="/assests/slide1-1.png" alt="Slide 1" class="w-full h-auto min-w-full">
-        <img src="/assests/slide2-1.png" alt="Slide 2" class="w-full h-auto min-w-full">
-        <img src="/assests/slide3-1.png" alt="Slide 3" class="w-full h-auto min-w-full">
+    </main>
+
+    <section class="my-20">
+        <div class="flex flex-wrap justify-center gap-10 px-2 sm:px-4 md:px-10 py-4 sm:py-6">
+    <div class="relative w-full sm:w-1/3 md:w-1/4 lg:w-1/6 p-2">
+        <div class="bg-gs-blue rounded-full w-full h-auto flex items-center justify-center overflow-hidden aspect-square">
+            <img src="/assests/cat1-1.jpg" alt="Smart watches" class="w-full h-full object-cover">
+            <div class="bg-gs-white rounded-full absolute bottom-1 p-3 min-w-1/2  flex items-center justify-center text-center shadow-lg">
+                <p class="text-gs-black font-poppins font-semibold text-sm sm:text-base">Smart watches</p>
+            </div>
+        </div>
+    </div>
+    <div class="relative w-full sm:w-1/3 md:w-1/4 lg:w-1/6 p-2">
+        <div class="bg-gs-blue rounded-full w-full h-auto flex items-center justify-center overflow-hidden aspect-square">
+            <img src="/assests/cat2-1.jpg" alt="Headphones" class="w-full h-full object-cover">
+            <div class="bg-gs-white rounded-full absolute bottom-1 p-3 min-w-1/2 flex items-center justify-center text-center shadow-lg">
+                <p class="text-gs-black font-poppins font-semibold text-sm sm:text-base">Headphones</p>
+            </div>
+        </div>
+    </div>
+    <div class="relative w-full sm:w-1/3 md:w-1/4 lg:w-1/6 p-2">
+        <div class="bg-gs-blue rounded-full w-full h-auto flex items-center justify-center overflow-hidden aspect-square">
+            <img src="/assests/cat3-1.jpg" alt="Smart phones" class="w-full h-full object-cover">
+            <div class="bg-gs-white rounded-full absolute bottom-1 p-3 min-w-1/2 flex items-center justify-center text-center shadow-lg">
+                <p class="text-gs-black font-poppins font-semibold text-sm sm:text-base">Smart phones</p>
+            </div>
+        </div>
+    </div>
+    <div class="relative w-full sm:w-1/3 md:w-1/4 lg:w-1/6 p-2">
+        <div class="bg-gs-blue rounded-full w-full h-auto flex items-center justify-center overflow-hidden aspect-square">
+            <img src="/assests/cat4-1.jpg" alt="Tablets" class="w-full h-full object-cover">
+            <div class="bg-gs-white rounded-full absolute bottom-1 p-3 min-w-1/2 flex items-center justify-center text-center shadow-lg">
+                <p class="text-gs-black font-poppins font-semibold text-sm sm:text-base">Tablets</p>
+            </div>
+        </div>
+    </div>
+    <div class="relative w-full sm:w-1/3 md:w-1/4 lg:w-1/6 p-2">
+        <div class="bg-gs-blue rounded-full w-full h-auto flex items-center justify-center overflow-hidden aspect-square">
+            <img src="/assests/cat5-1.jpg" alt="Laptops" class="w-full h-full object-cover">
+            <div class="bg-gs-white rounded-full absolute bottom-1 p-3 min-w-1/2  flex items-center justify-center text-center shadow-lg">
+                <p class="text-gs-black font-poppins font-semibold text-sm sm:text-base">Laptops</p>
+            </div>
+        </div>
     </div>
 </div>
-</div>
-    </div>
-</main>
-<script src="./main.js"></script>
+    </section>
+    <script src="./main.js"></script>
 </body>
+
 </html>
