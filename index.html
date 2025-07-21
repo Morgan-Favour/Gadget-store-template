@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gadget store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-gs-white: #ffffff;
+            --color-bs-gray: #898989;
+            --color-gs-primary: #0088ff;
+            --color-gs-secondary: #031833;
+            --font-poppins: 'Poppins', sans-serif;
+         }
+    </style>
 </head>
 <body>
-    
+    <nav>
+        <div
+            class="w-[90%] md:w-[60%] flex justify-around items-center align-center mx-auto my-6 py-4  px-4 bg-gs-white shadow-md rounded-full">
+            <div>
+                <img src="./assests/logo.png" alt="" class="w-25 md:w-50 h-auto">
+            </div>
+            <div>
+            
+
+                <ul id="menu" class="flex space-x-10">
+                    
+                    <a href="">
+                        <li class="font-semibold font-poppins text-lg text-bs-primary md:text-bs-black transition-colors duration-300">Products</li>
+                    </a>
+                    <a href="">
+                        <li class="font-semibold font-poppins text-lg text-gs-secondary md:text-bs-black transition-colors duration-300">Shop</li>
+                    </a>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
